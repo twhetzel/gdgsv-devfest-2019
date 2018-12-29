@@ -47,12 +47,12 @@ a img{
   width: auto;
 }
 
-.android-fab {
+.gdg-fab {
   position: absolute;
   right: 20%;
   bottom: -26px;
   z-index: 3;
-  background: #64ffda !important;
+  background: #ffc200 !important;
   color: black !important;
 }
 
@@ -170,30 +170,73 @@ a img{
       bottom: 16px;
     }
 
-.android-be-together-section {
+.hero-section {
   position: relative;
-  height: 800px;
+  height: 600px;
   width: auto;
-  background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+}
+
+.hero-section::before {
+  filter: brightness(50%);
+  background: url('images/home.jpg') center 30% no-repeat;
   background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  /*opacity: 0.4;*/
+}
+
+@font-face {
+  font-family: "Product Sans Regular";
+  src: url("css/fonts/Product Sans Regular.ttf");
 }
 
 .logo-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
-  font-weight: 500;
+  color: white;
+  font-weight: normal;
 }
 
-.android-slogan {
-  font-size: 60px;
-  padding-top: 160px;
+.slogan {
+  font-size: 50px;
+  padding-top: 140px;
 }
 
-.android-sub-slogan {
-  font-size: 21px;
-  padding-top: 24px;
+.sub-slogan {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-top: 44px;
+  font-weight: 200;
+}
+
+.gdg-logo {
+  height: 80px;
+}
+
+.buy-ticket {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.button-buy-ticket {
+  margin: 20px;
+  padding-left: 35px !important;
+  background-position: 5px !important;
+  background-image: url("images/ticket.png") !important;
+  background-repeat: no-repeat !important;
+  /*background-size: contain !important;*/
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised {
+  background-color: #04a15a;
 }
 
 .android-create-character {
@@ -502,7 +545,7 @@ a img{
     width: 100%;
   }
 
-  .android-be-together-section {
+  .hero-section {
     height: 350px;
   }
 
@@ -527,7 +570,7 @@ a img{
     height: 12px;
   }
 
-  .android-fab {
+  .gdg-fab {
     display: none;
   }
 

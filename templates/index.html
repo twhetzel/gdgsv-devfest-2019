@@ -123,19 +123,24 @@
       <!-- Main content -->
       <div class="android-content mdl-layout__content">
         <a name="top"></a>
-        <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be together. not the same.</div>
-          <div class="logo-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
-          <div class="logo-font android-create-character">
-            <a href=""><img src="images/andy.png"> create your android character</a>
+        <!-- Hero section -->
+        <div class="hero-section mdl-typography--text-center">
+          <div class="logo-font slogan">
+            <img class="gdg-logo" src="{{url_for('static', filename='images/gdg-chevron.svg')}}"/>
           </div>
-
+          <div class="logo-font sub-slogan">February 23, 2019</div>
+          <div class="buy-ticket">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent button-buy-ticket">
+              Buy Ticket
+            </button>
+          </div>
           <a href="#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+            <button class="gdg-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
               <i class="material-icons">expand_more</i>
             </button>
           </a>
         </div>
+
         <div class="android-screen-section mdl-typography--text-center">
           <a name="screens"></a>
           <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
