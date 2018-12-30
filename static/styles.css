@@ -33,6 +33,53 @@ a img{
   color: #fff;
 }
 
+h1 {
+  font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 32px;
+}
+
+p {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 18px;
+}
+
+.content {
+  grid-gap: 64px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  display: grid;
+  padding: 18px;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.statistics-block {
+  width: 100%;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.numbers {
+  font-size: 56px;
+  text-decoration: none;
+  position: relative;
+}
+.numbers:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 64px;
+  bottom: -24px;
+  background-color: #03a05a;
+}
+
+.label {
+  margin-top: 34px;
+}
+
 .android-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
 }
