@@ -556,6 +556,58 @@ p {
     font-size: 16px;
   }
 
+
+.mdl-mega-footer--top-section {
+  border-bottom: 1px solid #d4d2d2;
+  margin: 8px;
+}
+
+.social {
+  display: inline;
+  text-transform: uppercase;
+  margin-right: 4px;
+}
+
+.social-twitter {
+  margin-left: 6px;
+  padding-left: 35px !important;
+  background-image: url("images/twitter.png")  !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+.social-meetup {
+  margin-left: 6px;
+  padding-left: 35px !important;
+  background-image: url("images/meetup.png")  !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent;
+  opacity: 0.4;
+}
+
+.center-align {
+  display:flex;
+  align-items:center;
+  margin: 0px;
+}
+
+.mdl-mega-footer--bottom-section {
+  padding: 0px;
+  margin-top: 16px;
+}
+
+.footer-chevron {
+  opacity: 0.6;
+}
+
+.footer-logo-text {
+  font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 32px;
+}
+
+
+
 .android-footer {
   background-color: #fafafa;
   position: relative;
