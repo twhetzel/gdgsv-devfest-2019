@@ -116,6 +116,11 @@ p {
   width: 140px;
 }
 
+.header-logo-text {
+  font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 24px;
+  color: #878787;
+}
 
 .gdg-header {
   overflow: visible;
@@ -214,6 +219,12 @@ p {
     background: #04a15a;
     height: 160px;
   }
+
+    .drawer .header-logo-text {
+      font-size: 18px;
+      color: white;
+      margin-top: 64px;
+    }
 
     .drawer .android-logo-image {
       position: absolute;
@@ -605,8 +616,6 @@ p {
   font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   font-size: 32px;
 }
-
-
 
 .android-footer {
   background-color: #fafafa;
