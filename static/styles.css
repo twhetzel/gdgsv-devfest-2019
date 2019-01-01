@@ -461,25 +461,34 @@ p {
     top: 6px;
   }
 
-.android-customized-section {
+.location-section {
   text-align: center;
+  background-color: #4d8bf8;
 }
 
-.android-customized-section-text {
+.location-section-text {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 16px 0 16px;
+  margin-bottom: 40px;
+  padding: 40px 16px 0 16px;
+  color: white;
 }
 
-  .android-customized-section-text p {
+  .location-section-text p {
     padding-top: 16px;
   }
 
-.android-customized-section-image {
+.location-section-image {
   background: url('images/devices.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
+}
+
+
+iframe {
+  height: 60vw;
+  min-width: 100%;
 }
 
 .android-more-section {
