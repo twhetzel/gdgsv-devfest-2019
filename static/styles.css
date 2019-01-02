@@ -491,19 +491,6 @@ iframe {
   min-width: 100%;
 }
 
-.android-more-section {
-  padding: 80px 0;
-  max-width: 1044px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  .android-more-section .android-section-title {
-    margin-left: 12px;
-    padding-bottom: 24px;
-  }
-
-
 .speaker {
   text-align: center;
   cursor: pointer;
@@ -535,7 +522,63 @@ iframe {
   display: contents;
 }
 
+.center {
+  text-align: center !important;
+}
 
+
+.ticket-section {
+  /*background-color: #4c8af8;*/
+  background-color: #eee;
+}
+
+.ticket-content {
+  padding: 32px;
+}
+
+.ticket-content > .mdl-grid > .mdl-cell {
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+
+.ticket-card {
+  height: 340px;
+  width: 240px;
+}
+
+.ticket-card-title {
+  text-align: center;
+  /*background-color: #03a05a;*/
+  background-color: #4b8af8;
+  padding: 16px;
+  /*font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;*/
+  color: white;
+}
+
+.ticket-card-price {
+  font-size: 44px;
+  font-weight: 300;
+  padding-top: 16px;
+}
+
+.ticket-card-title-text {
+  font-size: 16px;
+  font-weight: 100;
+  padding-top: 24px;
+}
+
+.supporting-text-border:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid #d4d2d2; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.mdl-card__actions {
+  padding-bottom: 16px;
+}
 
 
 .android-card-container {
