@@ -485,10 +485,6 @@ iframe {
   padding: 32px;
 }
 
-.speaker-image-background {
-  background-color: white;
-}
-
 .speaker-image {
   border-radius: 50%;
   height: 128px;
@@ -497,6 +493,12 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
+  background-color: #ffc300;
+}
+
+.speaker-image-background {
+  background-color: white;
+  /*background-color: #ffc300;*/
 }
 
 .mdl-card__supporting-text {

@@ -1,0 +1,370 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- <link rel="stylesheet" href="../static/styles.css"> -->
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="gdg-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <div class="center-align">
+            <span class="header-logo-text">GDG Silicon Valley</span>
+          </div>
+          <!-- <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span> -->
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="gdg-header-spacer mdl-layout-spacer"></div>
+          <!-- <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div> -->
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/speakers">Speakers</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/schedule">Schedule</a>
+              <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Team</a> -->
+              <a class="mdl_navigation__link nohover mdl-typography--text-uppercase" href="">
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent nav-button">Buy Ticket</button></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation drawer -->
+      <div class="drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <div class="center-align">
+            <span class="header-logo-text">GDG Silicon Valley</span>
+          </div>
+          <!-- <img class="android-logo-image" src="images/android-logo-white.png"> -->
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Home</a>
+          <a class="mdl-navigation__link" href="/speakers">Speakers</a>
+          <a class="mdl-navigation__link" href="/schedule">Schedule</a>
+          <!-- <a class="mdl-navigation__link" href="">Team</a> -->
+        </nav>
+      </div>
+
+
+      <!-- Main content -->
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <!-- Hero section -->
+        <div class="hero-section mdl-typography--text-center">
+          <div class="logo-font slogan">
+            <img class="gdg-logo" src="{{url_for('static', filename='images/gdg-chevron.svg')}}"/>
+          </div>
+          <div class="logo-font sub-slogan">February 23, 2019</div>
+          <div class="buy-ticket">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent button-buy-ticket">
+              Buy Ticket
+            </button>
+          </div>
+          <a href="#about">
+            <button class="gdg-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+        </div>
+
+        <!-- About section -->
+        <div class="about-section">
+          <a name="about"></a>
+          <div class="container">
+            <div class="about-content">
+              <div>
+                <h1 class="container-title">What you need to know, before you ask.</h1>
+                <p>GDG Silicon Valley DevFest... ADD MORE TEXT HERE!</p>
+              </div>
+              <div class="statistics-block">
+                <div class="item">
+                  <div class="numbers">400</div>
+                  <div class="label">Attendees</div>
+                </div>
+                <div class="item">
+                  <div class="numbers">1</div>
+                  <div class="label">Day</div>
+                </div>
+                <div class="item">
+                  <div class="numbers">14</div>
+                  <div class="label">Sessions</div>
+                </div>
+                <div class="item">
+                  <div class="numbers">2</div>
+                  <div class="label">Tracks</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Speaker section -->
+        <div class="speaker-section">
+          <div class="container">
+            <div class="speaker-content">
+              <div class="container-title">Speakers</div>
+              <div class="mdl-grid">
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image"/>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Jessica Dene Earley-Cha</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">Let's build Apps for Google Assistant!</span>
+                      </div>
+                    </div>
+                    <!-- <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image">
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Margaret Maynard-Reid</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">TensorFlow Lite on Android</span>
+                      </div>
+                    </div>
+                    <!-- <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image" />
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Vikram Tiwari</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">End to End Machine Learning on Google Cloud</span>
+                      </div>
+                    </div>
+                    <!-- <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+
+                <!-- <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image" src="{{url_for('static', filename='images/more-from-1.png')}}"/>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Speaker name</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">Brief speaker bio</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tickets -->
+        <div class="ticket-section">
+          <div class="container">
+            <div class="ticket-content">
+              <div class="container-title">Tickets</div>
+              <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card mdl-shadow--3dp ticket-card">
+                    <div class="ticket-card-title">
+                      <div class="ticket-card-price">
+                        <span>$12</span>
+                      </div>
+                      <div class="ticket-card-title-text">
+                        <span>Early Bird</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__supporting-text center supporting-text-border">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Available until Jan. 21</span>
+                    </div>
+                    <div class="mdl-card__supporting-text center supporting-text-border">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Lunch and Snacks</span>
+                    </div>
+                    <div class="mdl-card__supporting-text center">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Swag & Prizes</span>
+                    </div>
+                    <div class="mdl-card__actions center">
+                      <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent nav-button">Buy Ticket</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card mdl-shadow--3dp ticket-card">
+                    <div class="ticket-card-title">
+                      <div class="ticket-card-price">
+                        <span>$20</span>
+                      </div>
+                      <div class="ticket-card-title-text">
+                        <span>General Admission</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__supporting-text center supporting-text-border">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Available until Feb. 14</span>
+                    </div>
+                    <div class="mdl-card__supporting-text center supporting-text-border">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Lunch and Snacks</span>
+                    </div>
+                    <div class="mdl-card__supporting-text center">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Swag & Prizes</span>
+                    </div>
+                    <div class="mdl-card__actions center">
+                      <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent nav-button">Buy Ticket</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                  <div class="mdl-card mdl-shadow--3dp ticket-card">
+                    <div class="ticket-card-title">
+                      <div class="ticket-card-price">
+                        <span>$28</span>
+                      </div>
+                      <div class="ticket-card-title-text">
+                        <span>Lazy Bird</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__supporting-text center supporting-text-border">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Available until Feb. 23</span>
+                    </div>
+                    <div class="mdl-card__supporting-text center supporting-text-border">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Lunch and Snacks</span>
+                    </div>
+                    <div class="mdl-card__supporting-text center">
+                      <span class="mdl-typography--font-light mdl-typography--subhead">Swag & Prizes</span>
+                    </div>
+                    <div class="mdl-card__actions center">
+                      <a href=""><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent nav-button">Buy Ticket</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Location -->
+        <div class="location-section">
+          <div class="container">
+            <div class="location-content">
+              <div class="container-title">Location</div>
+            </div>
+              <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=111%20east%20java%20drive&key=AIzaSyCVgEMpIUvBd-0qW5mpHfk5ybkUp0bP0q0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!-- Footer section -->
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section center-align">
+              <div class="social">Follow Us</div>
+                <a href="https://twitter.com/gdgsv" target="_blank"><button class="mdl-mega-footer--social-btn social-twitter">
+                </button></a>
+                <a href="https://www.meetup.com/gdg-silicon-valley" target="_blank"><button class="mdl-mega-footer--social-btn social-meetup"></button></a>
+              </div>
+              <div class="mdl-mega-footer--right-section center-align">
+                <a class="mdl-typography--font-light" href="#top">
+                  Back to Top
+                  <i class="material-icons">expand_less</i>
+                </a>
+              </div>
+          </div>
+          <div class="mdl-mega-footer--bottom-section">
+            <div class="center-align">
+              <img class="footer-chevron" src="{{url_for('static', filename='images/favicon.ico')}}"/>
+              <span class="footer-logo-text">GDG Silicon Valley</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
