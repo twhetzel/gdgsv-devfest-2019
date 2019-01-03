@@ -16,3 +16,8 @@ def display_schedule():
     ''' Show schedule page. '''
     return render_template('schedule.html')
 
+
+@app.route('/speakers')
+def display_speakers():
+    ''' Show speakers page. '''
+    return render_template('speakers.html')
