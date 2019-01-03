@@ -1,0 +1,113 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+
+<div class="schedule-section">
+    <div class="container">
+        <div class="schedule-content">
+            <div class="container-title">Schedule</div>
+
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image" src="{{url_for('static', filename='images/more-from-1.png')}}"/>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Speaker name</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">Brief speaker bio</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image" src="{{url_for('static', filename='images/more-from-1.png')}}">
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Speaker name</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">Brief speaker bio</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                  <div class="schedule">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h4>Featured event:<br>May 24, 2016<br>7-11pm
+                        </h4>
+                    </div>
+                    <!-- <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image" src="{{url_for('static', filename='images/more-from-1.png')}}"/>
+                    </div> -->
+                    <!-- <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Speaker name</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">Brief speaker bio</span>
+                      </div>
+                    </div> -->
+                    <div class="mdl-card__actions mdl-card--border">
+                      <!-- <a class="mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a> -->
+
+                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Add to Calendar
+    </a>
+    <div class="mdl-layout-spacer"></div>
+    <i class="material-icons">event</i>
+
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      <img class="speaker-image" src="{{url_for('static', filename='images/more-from-1.png')}}"/>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">Speaker name</h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">Brief speaker bio</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__actions">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a>
+                    </div>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+{% endblock %}
+

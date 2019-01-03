@@ -566,6 +566,21 @@ iframe {
 }
 
 
+.schedule-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.schedule-content {
+  padding: 32px;
+}
+
+.schedule {
+  /*text-align: center;*/
+}
+
+
+
 .android-card-container {
 }
 
