@@ -281,10 +281,25 @@ p {
   height: 80px;
 }
 
-.buy-ticket {
+.call-for-action {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   text-transform: uppercase;
   padding-top: 20px;
+}
+
+.button-submit-talk {
+  margin: 20px;
+  padding-left: 35px !important;
+  background-position: 5px !important;
+  background-image: url("images/presentation.png") !important;
+  background-repeat: no-repeat !important;
+  background-color: #fec211 !important;
+}
+
+div.call-for-action {
+  font-family: 'Product Sans, Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-size: 22px;
+  color: white;
 }
 
 .button-buy-ticket {
@@ -293,7 +308,6 @@ p {
   background-position: 5px !important;
   background-image: url("images/ticket.png") !important;
   background-repeat: no-repeat !important;
-  /*background-size: contain !important;*/
 }
 
 .mdl-button--accent.mdl-button--accent.mdl-button--raised {
