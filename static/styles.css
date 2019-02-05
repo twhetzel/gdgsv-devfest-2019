@@ -492,7 +492,6 @@ iframe {
 
 .speaker {
   text-align: center;
-  cursor: pointer;
 }
 
 .speaker-content {
@@ -654,6 +653,17 @@ iframe {
   background-repeat: no-repeat !important;
   background-color: transparent;
   opacity: 0.4;
+  cursor: pointer;
+}
+
+.social-twitter-small {
+  margin-left: 6px;
+  padding-left: 35px !important;
+  background-image: url("images/twitter_small.png")  !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 .social-meetup {
@@ -663,6 +673,7 @@ iframe {
   background-repeat: no-repeat !important;
   background-color: transparent;
   opacity: 0.4;
+  cursor: pointer;
 }
 
 .center-align {

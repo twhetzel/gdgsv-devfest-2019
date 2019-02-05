@@ -8,13 +8,48 @@
             <div class="container-title">Speakers</div>
 
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
+                <!-- <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card">
                   <div class="speaker">
                     <div class="mdl-card__title">
                       <h4 class="speaker-name">Coming soon!</h4>
                     </div>
                   </div>
+                </div> -->
+
+                {% for speaker in data %}
+
+                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--2dp">
+                  <div class="speaker">
+                    <div class="mdl-card__media speaker-image-background">
+                      {% if speaker.profile %}
+                        <img class="speaker-image" src="{{ speaker.profile }}" height="100" width="100">
+                      {% endif %}
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <div>
+                        <h4 class="speaker-name">{{ speaker.name}} </h4>
+                      </div>
+                      <div>
+                        <span class="mdl-typography--font-light mdl-typography--subhead">{{ speaker.bio }}</span>
+                      </div>
+                    </div>
+                    <div class="mdl-card__actions">
+                      <!-- <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                        <i class="material-icons">chevron_right</i>
+                      </a> -->
+                      {% if speaker.social.twitter is defined %}
+                        <a href="https://twitter.com/{{ speaker.social.twitter }}" target="_blank">
+                          <button class="mdl-mega-footer--social-btn social-twitter-small">
+                          </button>
+                        </a>
+                        {% endif %}
+                    </div>
+                  </div>
                 </div>
+
+                {% endfor %}
+
+
               </div>
             </div>
           </div>

@@ -1,0 +1,111 @@
+ [{
+    "id": 1,
+    "name": "Stacy Devino",
+    "bio":  "Stacy is a Google Developer Expert for Android, Intel Innovator, Google Developer Group Mentor, and WTM Ambassador. She has worked on Android Applications down to the whole Android OS and even developed IoT appliances from the ground up which are in use by companies like Apple and Amazon and has work featured on Wired, Gizmodo, and Geek.com. Are you a sneakerhead? Because, she currently works for Nike s23NYC Innovation Studio doing Android apps like the SNKRS app, Augmented Reality, richly animated UIs, multimedia, Geo-caching, and touch of InfoSec focused on delivering exceptional customer mobile experiences.",
+    "title": "",
+    "abstract": "",
+    "profile": "./static/images/profiles/stacy_devino.png",
+    "social": {
+        "twitter": "@DoesitPew"
+    }
+}, {
+    "id": 2,
+    "name": "Vikram Tiwari",
+    "bio": "Coming soon",
+    "title": "End to End Machine Learning on Google Cloud",
+    "abstract": "We will start by developing a ML model using TensorFlow, training and deploying it on Google Cloud and then finally use it to get inferences.",
+    "profile": "",
+    "social": {
+        "twitter": "@Vikram_Tiwari"
+    }
+}, {
+    "id": 3,
+    "name": "Margaret Maynard-Reid",
+    "bio": "Coming soon",
+    "title": "TensorFlow Lite on Android",
+    "abstract": "Are you interested in making intelligent apps with the most popular deep learning framework TensorFlow? Come to this talk to learn your various options: from using ready made APIs to training your own custom models. You will learn the end to end process of how to train a model with TensorFlow high level API tf.Keras, convert to a TensorFlow Lite model and deploy it to an Android app. \rTopics covered in this talk:\r- How to integrate ML Kit, a Mobile SDK powered by TensorFlow Lite\r- Transfer learning using pretrained ConvNets\r- Train a model from scratch and deploy it to Android for inference",
+    "profile": "",
+    "social": {
+        "twitter": "@margaretmz"
+    }
+}, {
+    "id": 4,
+    "name": "Jessica Dene Earley-Cha",
+    "bio": "Coming soon",
+    "title": "Let's build Apps for Google Assistant!",
+    "abstract": "Learn how to give your users engaging experiences through hundreds of millions of devices including smart speakers, phones, cars, TVs, headphones, and more with Google Assistant. Cloud Functions provides the easiest way to build your Assistant Action and auto-scales underlying infrastructure to match your app's usage. Join us for live coding as we build an Action for Google Assistant onstage -- using Actions on Google & Dialogflow!",
+    "profile": "",
+    "social": {
+        "twitter": "@chatasweetie"
+    }
+}, {
+    "id": 5,
+    "name": "Doug Stevenson",
+    "bio": "Add some text here!",
+    "title": "",
+    "abstract": "",
+    "profile": "",
+    "social": {
+        "twitter": "@CodingDoug"
+    }
+}, {
+    "id": 6,
+    "name": "Ben Oberkfell",
+    "bio": "Coming soon",
+    "title": "Secrets to Effective Remote Work",
+    "abstract": "More and more companies are embracing remote work, and more and more employees are finding that the remote work model affords them flexibility and opportunity. But it also poses challenges to people who are new to working remotely, like:\r- what to ask in an interview to determine just how remote-friendly a company happens to be\r- setting up a workspace at home\r- having high quality remote interactions with your colleagues- avoiding overwork and burnout\r- just plain maintaining sanity\rI'll share some lessons learned from years of working remotely, both pitfalls and great habits to establish.",
+    "profile": "",
+    "social": {
+        "twitter": "@benlikestocode"
+    }
+}, {
+    "id": 7,
+    "name": "Lyla Fujiwara",
+    "bio": "Lyla Fujiwara is an Android Developer Advocate at Google. Prior to joining Google, she worked at Udacity, where she taught Android and Firebase content to hundreds of thousands of developers. She's a returned Peace Corps volunteer and has worked and lived on three continents.",
+    "title": "Make Your First Android App with Machine Learning",
+    "abstract": "Have you always wanted to make an Android app? Great, then this workshop is for you! Are you already an Android developer but want a fun way to learn more about machine learning or the new amazing features in Android Jetpack? Great this workshop is for you! We will start by going over the basics of creating an Android app using Kotlin in Android Studio. After we've created an app with our own personal flair, we will learn about the MLKit’s facial recognition tool. Our final app will be an app that turns your favorite photo of yourself into an Android complete with antennae! Please come to this hands on workshop with a laptop running the Android 3.3, and an Android device if you have it.",
+    "profile": "",
+    "social": {
+        "twitter": "@CeruleanOtter"
+    }
+}, {
+    "id": 9,
+    "name": "Shruti Kapoor",
+    "bio": "Coming soon",
+    "title": "GraphQL and state management",
+    "abstract": "How does state management work with GraphQL? Do you need Redux to store your data? What benefits does GraphQL clients have over flux architectures? This talk answers these questions.",
+    "profile": "",
+    "social": {
+        "twitter": "@shrutikapoor08"
+    }
+}, {
+    "id": 10,
+    "name": "Paige Bailey",
+    "bio": "Paige Bailey is a TensorFlow Developer Advocate at Google, based in Mountain View, CA. Prior to joining Google, Paige worked as a senior software engineer in the office of the Azure CTO; as a Cloud Developer Advocate for machine learning at Microsoft; and as a data scientist for Chevron in Houston, TX. Paige has over a decade of experience using Python for data analysis, five years of experience doing machine learning - and can't wait to show you about the new capabilities in TensorFlow 2.0.",
+    "title": "A Gentle Introduction to TensorFlow 2.0",
+    "abstract": "TensorFlow 2.0 has landed! In this talk, you'll learn all about the latest version of Tensorflow, as well as how you can upgrade your existing TensorFlow 1.x models.",
+    "profile": "",
+    "social": {
+        "twitter": "@DynamicWebPaige"
+    }
+}, {
+    "id": 11,
+    "name": "Grant Timmerman",
+    "bio": "Developer Platform Engineer, Google",
+    "title": "Google Cloud Functions for Go",
+    "abstract": "The Serverless Movement: Serverless abstracts away the most menial parts of building an application, leaving developers free to actually spend their days coding. In this talk, Grant will introduce the basics using Google Cloud Functions, featuring the new Go runtime.",
+    "profile": "",
+    "social": {
+        "twitter": "@granttimmerman"
+    }
+}, {
+    "id": 8,
+    "name": "",
+    "bio": "Coming soon",
+    "title": "",
+    "abstract": "",
+    "profile": "",
+    "social": {
+        "twitter": ""
+    }
+}]

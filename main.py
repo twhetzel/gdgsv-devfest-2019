@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+import json
 
 
 app = Flask(__name__)
@@ -19,5 +20,8 @@ def display_schedule():
 
 @app.route('/speakers')
 def display_speakers():
-    ''' Show speakers page. '''
-    return render_template('speakers-temp.html')
+    ''' Show speakers page.'''
+    with open ('./data/speakers.json') as speakers_file:
+        speakers_data = json.load(speakers_file)
+
+    return render_template('speakers-temp.html', data=speakers_data)
