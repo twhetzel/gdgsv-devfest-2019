@@ -24,7 +24,7 @@
     "bio": "Coming soon",
     "title": "TensorFlow Lite on Android",
     "abstract": "Are you interested in making intelligent apps with the most popular deep learning framework TensorFlow? Come to this talk to learn your various options: from using ready made APIs to training your own custom models. You will learn the end to end process of how to train a model with TensorFlow high level API tf.Keras, convert to a TensorFlow Lite model and deploy it to an Android app. \rTopics covered in this talk:\r- How to integrate ML Kit, a Mobile SDK powered by TensorFlow Lite\r- Transfer learning using pretrained ConvNets\r- Train a model from scratch and deploy it to Android for inference",
-    "profile": "",
+    "profile": "./static/images/profiles/margaret.png",
     "social": {
         "twitter": "@margaretmz"
     }
@@ -97,6 +97,46 @@
     "profile": "",
     "social": {
         "twitter": "@granttimmerman"
+    }
+}, {
+    "id": 12,
+    "name": "Wesley Chun",
+    "bio": "Coming soon",
+    "title": "",
+    "abstract": "",
+    "profile": "",
+    "social": {
+        "twitter": ""
+    }
+}, {
+    "id": 13,
+    "name": "Alex Ermolaev",
+    "bio": "Alex Ermolaev is Director of AI at Change Healthcare - one of the largest healthcare technology company in the US, managing 20% of medical images, 60% of medical claims, 20% of electronic health records. Alex previously built several startup and build new businesses at Bell Labs, Microsoft and Nvidia.",
+    "title": "Can AI understand doctor's notes?",
+    "abstract": "US Healthcare system generates massive amount of information, with up to 400 pages per hospital visit. This information can be used in variety of ways to improve diagnostics, personalize treatments or optimize healthcare system. This talk will discuss large scale healthcare information processing using Google Cloud Vision API and extracting actionable knowledge using TensorFlow deep learning.",
+    "profile": "./static/images/profiles/alex.jpg",
+    "social": {
+        "twitter": ""
+    }
+}, {
+    "id": 14,
+    "name": "Carlos Palacin",
+    "bio": "I've been working at Groupon for 4 years and I've spend the last year leading the Android UI team at Groupon. Before that, in another life, I was a backend engineer at IBM and a couple small startups. I love building beautiful apps but I still try to catch up with backend work whenever I have a chance.",
+    "title": "5 tips on Android UI reusability",
+    "abstract": "",
+    "profile": "./static/images/profiles/carlos.png",
+    "social": {
+        "twitter": "@C_Palacin"
+    }
+}, {
+    "id": 15,
+    "name": "Martin Omander",
+    "bio": "Martin Omander works for Google in Mountain View, California. His job in the Developer Relations team is to help developers build better software, and improve Google's Cloud Platform to make it even better for that purpose. In his spare time he manages to sneak in some game programming. Before Google, Martin worked at string of startups in Silicon Valley as a software engineer.",
+    "title": "Migrating your Monolith System to Microservices",
+    "abstract": "Microservices enable development teams to be more agile, but it’s hard to break up an existing monolithic application or to run many services. Come to see a time-lapse refactoring of a fictional monolithic web application into decoupled services. An incremental approach and GCP serverless products for hosting, communication, and storage come to the rescue. We will explore how to get started and use best practices for your journey to a low-ops, high-velocity future.",
+    "profile": "./static/images/profiles/martin-2.png",
+    "social": {
+        "twitter": "@martinomander"
     }
 }, {
     "id": 8,
