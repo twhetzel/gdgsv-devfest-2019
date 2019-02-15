@@ -177,6 +177,16 @@
         "twitter": ""
     }
 }, {
+    "id": 20,
+    "name": "Erick Wendel",
+    "bio": "Erick Wendel is a Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. He is a Software Independent Architect who helps companies to make better and cheaper applications using Serverless architectures, Container based applications, and Hybrid Cloud solutions. He has experience speaking and teaching at the biggest conferences in Brazil and Americas, working as voluntary Leader of NodeBR, Javascript São Paulo and Nerdzão Communities.",
+    "title": "The power of Typescript to work with Node.js Applications",
+    "abstract": "",
+    "profile": "./static/images/profiles/erick.jpg",
+    "social": {
+        "twitter": ""
+    }
+}, {
     "id": 8,
     "name": "",
     "bio": "Coming soon",
