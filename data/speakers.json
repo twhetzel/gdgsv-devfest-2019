@@ -14,7 +14,7 @@
     "bio": "Coming soon",
     "title": "End to End Machine Learning on Google Cloud",
     "abstract": "We will start by developing a ML model using TensorFlow, training and deploying it on Google Cloud and then finally use it to get inferences.",
-    "profile": "",
+    "profile": "./static/images/profiles/vikram.jpg",
     "social": {
         "twitter": "@Vikram_Tiwari"
     }
@@ -22,8 +22,8 @@
     "id": 3,
     "name": "Margaret Maynard-Reid",
     "bio": "Coming soon",
-    "title": "TensorFlow Lite on Android",
-    "abstract": "Are you interested in making intelligent apps with the most popular deep learning framework TensorFlow? Come to this talk to learn your various options: from using ready made APIs to training your own custom models. You will learn the end to end process of how to train a model with TensorFlow high level API tf.Keras, convert to a TensorFlow Lite model and deploy it to an Android app. \rTopics covered in this talk:\r- How to integrate ML Kit, a Mobile SDK powered by TensorFlow Lite\r- Transfer learning using pretrained ConvNets\r- Train a model from scratch and deploy it to Android for inference",
+    "title": "Deep Learning for Android with TensorFlow",
+    "abstract": "Are you interested in making intelligent apps with the most popular deep learning framework TensorFlow? Come to this talk to learn your various options: from using ready made APIs to training your own custom models. You will learn the end to end process of how to train a model with TensorFlow high level API tf.Keras, convert to a TensorFlow Lite model and deploy it to an Android app.\r\r Topics covered in this talk: \r- Intro to TensorFlow, tf.Keras, TensorFlow Lite and ML Kit \r- How to integrate ML Kit, a Mobile SDK powered by TensorFlow Lite \r- Transfer learning with Pre-trained ConvNets \r- Train a model from scratch and deploy it to Android for inference",
     "profile": "./static/images/profiles/margaret.png",
     "social": {
         "twitter": "@margaretmz"
@@ -31,20 +31,20 @@
 }, {
     "id": 4,
     "name": "Jessica Dene Earley-Cha",
-    "bio": "Coming soon",
+    "bio": "Jessica Dene Earley-Cha is a Developer Advocate for Google Assistant. She loves to connect with developers and explore VUI (voice user interface) to add another dimension to how user interact with technology. Jessica is a full stack developer who enjoys sharing knowledge and support others. Jessica is a Women Techmakers lead and a teacher for Girl Develop It. You’ll find her either spending time with her dog, collecting strawberry knick knack or coding one of her many personal projects.",
     "title": "Let's build Apps for Google Assistant!",
     "abstract": "Learn how to give your users engaging experiences through hundreds of millions of devices including smart speakers, phones, cars, TVs, headphones, and more with Google Assistant. Cloud Functions provides the easiest way to build your Assistant Action and auto-scales underlying infrastructure to match your app's usage. Join us for live coding as we build an Action for Google Assistant onstage -- using Actions on Google & Dialogflow!",
-    "profile": "",
+    "profile": "./static/images/profiles/jessica-short.png",
     "social": {
         "twitter": "@chatasweetie"
     }
 }, {
     "id": 5,
     "name": "Doug Stevenson",
-    "bio": "Add some text here!",
-    "title": "",
-    "abstract": "",
-    "profile": "",
+    "bio": "",
+    "title": "Go “serverless” with Cloud Functions for Firebase",
+    "abstract": "Firebase makes it incredibly easy to write, deploy, and scale a serverless backend, written in TypeScript, for your app.  In this session, you’ll get to experience that using nothing more than a code editor and the Firebase CLI.  You'll see a live demo of an HTTP API, a Firestore trigger, and other deceptively powerful functions that glue together Google APIs and services.",
+    "profile": "./static/images/profiles/dougstevenson_web.jpg",
     "social": {
         "twitter": "@CodingDoug"
     }
@@ -74,7 +74,7 @@
     "bio": "Coming soon",
     "title": "GraphQL and state management",
     "abstract": "How does state management work with GraphQL? Do you need Redux to store your data? What benefits does GraphQL clients have over flux architectures? This talk answers these questions.",
-    "profile": "",
+    "profile": "./static/images/profiles/shruti_profile.jpg",
     "social": {
         "twitter": "@shrutikapoor08"
     }
@@ -94,19 +94,19 @@
     "bio": "Developer Platform Engineer, Google",
     "title": "Google Cloud Functions for Go",
     "abstract": "The Serverless Movement: Serverless abstracts away the most menial parts of building an application, leaving developers free to actually spend their days coding. In this talk, Grant will introduce the basics using Google Cloud Functions, featuring the new Go runtime.",
-    "profile": "",
+    "profile": "./static/images/profiles/grant.jpg",
     "social": {
         "twitter": "@granttimmerman"
     }
 }, {
     "id": 12,
     "name": "Wesley Chun",
-    "bio": "Coming soon",
-    "title": "",
-    "abstract": "",
-    "profile": "",
+    "bio": "WESLEY CHUN is the author of Prentice Hall's bestselling \"Core Python\" (corepython.com) series, co-author of \"Python Web Development with Django\" (withdjango.com), and has written for Linux Journal, CNET, and InformIT. In addition to being an engineer & Developer Advocate at Google focused on Google Cloud and one of the hosts of the G Suite Dev Show (goo.gl/JpBQ40), he runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training. Wesley has over 25 years of programming, teaching, and writing experience, and was one of the original Yahoo!Mail engineers. He holds degrees in CS, Math, and Music from the University of California, is a Fellow of the Python Software Foundation, and is based in Silicon Valley.",
+    "title": "Exploring Google APIs with Python & JavaScript",
+    "abstract": "Want to integrate Google technologies into the web+mobile apps that you build? Google has various open source libraries & developer tools that help you do exactly that. Users who have run into roadblocks like authentication or found our APIs confusing/challenging, are welcome to come and make these non-issues moving forward. The first half of the talk covers the Google APIs Client Library, specifically with Python, although you could use any of the other languages supported. We'll then describe the steps necessary to create projects & enable Google APIs from the Google Developers Console. Then we discuss how to create & access the needed credentials. Code demos will show you how to use this code to talk to a variety of Google APIs. While you do the same thing using JavaScript, there is another developer tool that gives you access to Google APIs but in a slightly different way. The second half of the talk covers Google Apps Script, a self-contained JavaScript environment in the Google cloud. You'll learn what Apps Script is and how it's more like using \"services\" than traditional APIs. We'll show you how to use its development environment and create a Google Sheets spreadsheet that talks to several Google APIs. The applications you build, whether they use the Client Library or Apps Script are reachable by any client, browser, desktop/laptop or mobile. Come join us and learn how to leverage the power of Google technologies in the next apps you build!",
+    "profile": "./static/images/profiles/wesley.jpg",
     "social": {
-        "twitter": ""
+        "twitter": "@wescpy"
     }
 }, {
     "id": 13,
@@ -116,7 +116,6 @@
     "abstract": "US Healthcare system generates massive amount of information, with up to 400 pages per hospital visit. This information can be used in variety of ways to improve diagnostics, personalize treatments or optimize healthcare system. This talk will discuss large scale healthcare information processing using Google Cloud Vision API and extracting actionable knowledge using TensorFlow deep learning.",
     "profile": "./static/images/profiles/alex.jpg",
     "social": {
-        "twitter": ""
     }
 }, {
     "id": 14,
@@ -134,9 +133,48 @@
     "bio": "Martin Omander works for Google in Mountain View, California. His job in the Developer Relations team is to help developers build better software, and improve Google's Cloud Platform to make it even better for that purpose. In his spare time he manages to sneak in some game programming. Before Google, Martin worked at string of startups in Silicon Valley as a software engineer.",
     "title": "Migrating your Monolith System to Microservices",
     "abstract": "Microservices enable development teams to be more agile, but it’s hard to break up an existing monolithic application or to run many services. Come to see a time-lapse refactoring of a fictional monolithic web application into decoupled services. An incremental approach and GCP serverless products for hosting, communication, and storage come to the rescue. We will explore how to get started and use best practices for your journey to a low-ops, high-velocity future.",
-    "profile": "./static/images/profiles/martin-2.png",
+    "profile": "./static/images/profiles/martin.png",
     "social": {
         "twitter": "@martinomander"
+    }
+}, {
+    "id": 16,
+    "name": "Adam Ross",
+    "bio": "Adam is a software engineer in Developer Relations working to make technology simpler with serverless. Prior to joining Google he worked in many roles as an engineer, consultant, solutions architect, platform planner, and tools tinkerer.",
+    "title": "Migrating your Monolith System to Microservices",
+    "abstract": "Microservices enable development teams to be more agile, but it’s hard to break up an existing monolithic application or to run many services. Come to see a time-lapse refactoring of a fictional monolithic web application into decoupled services. An incremental approach and GCP serverless products for hosting, communication, and storage come to the rescue. We will explore how to get started and use best practices for your journey to a low-ops, high-velocity future.",
+    "profile": "./static/images/profiles/adam_ross-RS.png",
+    "social": {
+        "twitter": "@grayside_sb"
+    }
+}, {
+    "id": 17,
+    "name": "James Williams",
+    "bio": "James is a Android Certification Specialist for Advanced Systems Group at Google, where he helps new developers prove their mobile development skills. Before his current role, he architected mobile and web courses at Udacity, teaching hundreds of thousands of students how to code.",
+    "title": "",
+    "abstract": "Every time you edit a Gradle file and build an Android app, a lot of magic is going on behind the scenes thanks to Groovy.  Created as a dynamic language in 2007, modern Groovy has speeds equivalent to Java and added features like static compilation to make it possible to, don't laugh, write Android code. Come learn a bit how to teach your build files a few new tricks, some cautionary tales Groovy's history has for the new Kotlin developer, and what makes Groovy more than Gradle's DSL.",
+    "profile": "./static/images/profiles/james.jpg",
+    "social": {
+        "twitter": "@ecspike"
+    }
+}, {
+    "id": 18,
+    "name": "Denis Neklyudov",
+    "bio": "Google Developer Expert Android, Pay and IoT since 2015.  Worked in different startups in Singapore, Moscow, and London (including Revolut). Now SWE at Lyft San Francisсo Spoke about Android development and other technologies by Google on many developer conferences (>20). Took part of organization most of all Android conferences in Singapore and some of them in Russia. Co-host and creator of first Russian speaking mobile development weekly podcast with more than 10k listeners of every episode Developed, organized and taught Android beginners with Google Studyjams’ worldwide education program in Moscow and Kotlin Language workshops in Singapore",
+    "title": "Flutter for Android developers",
+    "abstract": "Flutter became very popular among Android devs after release. But developers have many questions. With new framework and programming language, they lost tools and approaches that they familiar with. No Retrofit, Room, Realm, DataBinding, RxJava and what architecture is the best for Flutter apps? This talk is addressed to answer Android developers questions to help them to enjoy creating production-ready mobile apps.",
+    "profile": "./static/images/profiles/denis.jpg",
+    "social": {
+    }
+}, {
+    "id": 19,
+    "name": "Siamak (Ash) Ashrafi",
+    "bio": "Ash - CTO @ ZoeWave building physiologically intelligent clothing called ZoeWear. Combining biotech, mobile and fashion to build clothing that keeps people healthy while looking great*. Zoe(\"life\")Wear \"wearable for life\" is built on his experience in all three fields.",
+    "title": "Design Sprint - Building @ Speed of thought",
+    "abstract": "Breaking away from the traditional steps of a design sprint (http://www.gv.com/sprint) we blur them together to further reduce the development cycle in what we call \"Building @ Speed of Thought\".  Over the years my group has been perfecting how to build world-class Android Apps at the speed of thought first for hackathons, then products and now for design sprints. In this session, we will detail the “Speed of Thought” methodology, steps, tools and components involved. We start by utilizing a design sprint to explore the power of mobile and how it fits into the market/problem we are trying to solve.  Then focusing on the crucial step in a design sprint we build high fidelity prototypes in rapid succession utilizing the JetPack Android software components (UI, Behavior, Foundation, Architecture) to take full advantage of the Android platform.  We do this by leveraging the design features of Android Studio (material components / theme editor, constraint library, motion editor) along with open source/industry resources to build an intuitive and beautiful UI.  Once the UI framework is done we write the Kotlin application logic utilizing the Android Architecture Components with data binding connected to Firebase for the synchronized backend.  With our application finished we execute our strategy for marketing, distribution, and monetization guided by Data-Driven Ethnography (DDE).  At the end of the session, the audience will have a good idea of how in rapid secession all these tools and components come together to produce magic.",
+    "profile": "./static/images/profiles/ash.png",
+    "social": {
+        "twitter": ""
     }
 }, {
     "id": 8,
