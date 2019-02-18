@@ -2,8 +2,8 @@
     "id": 1,
     "name": "Stacy Devino",
     "bio":  "Stacy is a Google Developer Expert for Android, Intel Innovator, Google Developer Group Mentor, and WTM Ambassador. She has worked on Android Applications down to the whole Android OS and even developed IoT appliances from the ground up which are in use by companies like Apple and Amazon and has work featured on Wired, Gizmodo, and Geek.com. Are you a sneakerhead? Because, she currently works for Nike s23NYC Innovation Studio doing Android apps like the SNKRS app, Augmented Reality, richly animated UIs, multimedia, Geo-caching, and touch of InfoSec focused on delivering exceptional customer mobile experiences.",
-    "title": "",
-    "abstract": "",
+    "title": "\"Fixing\" the background Services that Google \"Fixed\"",
+    "abstract": "Your app used a background service, Android Pie \"fixed\" your service to...... no longer work. 🤷‍  Now, you are faced with having to run your service in the Foreground and handle permissions for that or re-architecting it. There are some parts of Services that plain just broke and no longer work on Android Pie. How do you make that function work now? 🤔 Well, we will show you some new ways to get information you may have before through the magic of Tasks and WorkManager (remember, JobScheduler is deprecated) as well as good architecture points and what you should be doing. It seems like you have no choice, but you actually just have to choose the right approach for what you are trying to accomplish. Let's get the low-down on how to do this properly. 😉",
     "profile": "./static/images/profiles/stacy_devino.png",
     "social": {
         "twitter": "@DoesitPew"
@@ -11,9 +11,9 @@
 }, {
     "id": 2,
     "name": "Vikram Tiwari",
-    "bio": "Coming soon",
+    "bio": "Building scalable web and data platforms for high availability, resilience, and security. Co-founder, Tech @OmniLabsInc #GDE @GoogleCloud and #MachineLearning",
     "title": "End to End Machine Learning on Google Cloud",
-    "abstract": "We will start by developing a ML model using TensorFlow, training and deploying it on Google Cloud and then finally use it to get inferences.",
+    "abstract": "We will start by developing an ML model using TensorFlow, training and deploying it on Google Cloud and then finally use it to get inferences.",
     "profile": "./static/images/profiles/vikram.jpg",
     "social": {
         "twitter": "@Vikram_Tiwari"
@@ -21,7 +21,7 @@
 }, {
     "id": 3,
     "name": "Margaret Maynard-Reid",
-    "bio": "Coming soon",
+    "bio": "Margaret Maynard-Reid is a Google Developer Expert (GDE) for Machine Learning, and she develops Android apps with intelligence. She leads GDG Seattle and co-organizes Seattle Data/Analytics/Machine Learning meetup groups. She writes blogs and speaks at conferences on TensorFlow, deep learning and Android. She is passionate about community building and helping others get into Artificial Intelligence and Machine Learning.",
     "title": "Deep Learning for Android with TensorFlow",
     "abstract": "Are you interested in making intelligent apps with the most popular deep learning framework TensorFlow? Come to this talk to learn your various options: from using ready made APIs to training your own custom models. You will learn the end to end process of how to train a model with TensorFlow high level API tf.Keras, convert to a TensorFlow Lite model and deploy it to an Android app.\r\r Topics covered in this talk: \r- Intro to TensorFlow, tf.Keras, TensorFlow Lite and ML Kit \r- How to integrate ML Kit, a Mobile SDK powered by TensorFlow Lite \r- Transfer learning with Pre-trained ConvNets \r- Train a model from scratch and deploy it to Android for inference",
     "profile": "./static/images/profiles/margaret.png",
@@ -41,7 +41,7 @@
 }, {
     "id": 5,
     "name": "Doug Stevenson",
-    "bio": "",
+    "bio": "Doug is a veteran engineer, experienced public speaker, and developer advocate at Google with the Firebase team.  He's been developing for Android since the very first Android device was on the market, and has bootstrapped the efforts of silicon valley startups.  Outside of work, Doug follows professional ice hockey and enjoys craft beer.",
     "title": "Go “serverless” with Cloud Functions for Firebase",
     "abstract": "Firebase makes it incredibly easy to write, deploy, and scale a serverless backend, written in TypeScript, for your app.  In this session, you’ll get to experience that using nothing more than a code editor and the Firebase CLI.  You'll see a live demo of an HTTP API, a Firestore trigger, and other deceptively powerful functions that glue together Google APIs and services.",
     "profile": "./static/images/profiles/dougstevenson_web.jpg",
@@ -51,10 +51,10 @@
 }, {
     "id": 6,
     "name": "Ben Oberkfell",
-    "bio": "Coming soon",
+    "bio": "Ben is an Android developer at the New York Times, where he works on the mobile Crosswords app. He’s previously built consumer-focused mobile products for American Express and Jive Software. \rBefore mobile, Ben worked on analysis software for cancer genomics. \r\rBen lives in St. Louis, where he is the co-organizer of the local GDG chapter.",
     "title": "Secrets to Effective Remote Work",
     "abstract": "More and more companies are embracing remote work, and more and more employees are finding that the remote work model affords them flexibility and opportunity. But it also poses challenges to people who are new to working remotely, like:\r- what to ask in an interview to determine just how remote-friendly a company happens to be\r- setting up a workspace at home\r- having high quality remote interactions with your colleagues- avoiding overwork and burnout\r- just plain maintaining sanity\rI'll share some lessons learned from years of working remotely, both pitfalls and great habits to establish.",
-    "profile": "",
+    "profile": "./static/images/profiles/ben.jpg",
     "social": {
         "twitter": "@benlikestocode"
     }
@@ -64,14 +64,14 @@
     "bio": "Lyla Fujiwara is an Android Developer Advocate at Google. Prior to joining Google, she worked at Udacity, where she taught Android and Firebase content to hundreds of thousands of developers. She's a returned Peace Corps volunteer and has worked and lived on three continents.",
     "title": "Make Your First Android App with Machine Learning",
     "abstract": "Have you always wanted to make an Android app? Great, then this workshop is for you! Are you already an Android developer but want a fun way to learn more about machine learning or the new amazing features in Android Jetpack? Great this workshop is for you! We will start by going over the basics of creating an Android app using Kotlin in Android Studio. After we've created an app with our own personal flair, we will learn about the MLKit’s facial recognition tool. Our final app will be an app that turns your favorite photo of yourself into an Android complete with antennae! Please come to this hands on workshop with a laptop running the Android 3.3, and an Android device if you have it.",
-    "profile": "",
+    "profile": "./static/images/profiles/LMF-2.jpg",
     "social": {
         "twitter": "@CeruleanOtter"
     }
 }, {
     "id": 9,
     "name": "Shruti Kapoor",
-    "bio": "Coming soon",
+    "bio": "Software Engineer at PayPal",
     "title": "GraphQL and state management",
     "abstract": "How does state management work with GraphQL? Do you need Redux to store your data? What benefits does GraphQL clients have over flux architectures? This talk answers these questions.",
     "profile": "./static/images/profiles/shruti_profile.jpg",
@@ -91,7 +91,7 @@
 }, {
     "id": 11,
     "name": "Grant Timmerman",
-    "bio": "Developer Platform Engineer, Google",
+    "bio": "Grant is a developer platform engineer at Google where he works on Google Cloud Platform. Previously he led open source for G Suite APIs. He loves Node, GitHub, and plays the alto saxophone in his spare time.",
     "title": "Google Cloud Functions for Go",
     "abstract": "The Serverless Movement: Serverless abstracts away the most menial parts of building an application, leaving developers free to actually spend their days coding. In this talk, Grant will introduce the basics using Google Cloud Functions, featuring the new Go runtime.",
     "profile": "./static/images/profiles/grant.jpg",
@@ -101,7 +101,7 @@
 }, {
     "id": 12,
     "name": "Wesley Chun",
-    "bio": "WESLEY CHUN is the author of Prentice Hall's bestselling \"Core Python\" (corepython.com) series, co-author of \"Python Web Development with Django\" (withdjango.com), and has written for Linux Journal, CNET, and InformIT. In addition to being an engineer & Developer Advocate at Google focused on Google Cloud and one of the hosts of the G Suite Dev Show (goo.gl/JpBQ40), he runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training. Wesley has over 25 years of programming, teaching, and writing experience, and was one of the original Yahoo!Mail engineers. He holds degrees in CS, Math, and Music from the University of California, is a Fellow of the Python Software Foundation, and is based in Silicon Valley.",
+    "bio": "Wesley Chun is the author of Prentice Hall's bestselling \"Core Python\" (corepython.com) series, co-author of \"Python Web Development with Django\" (withdjango.com), and has written for Linux Journal, CNET, and InformIT. In addition to being an engineer & Developer Advocate at Google focused on Google Cloud and one of the hosts of the G Suite Dev Show (goo.gl/JpBQ40), he runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training. Wesley has over 25 years of programming, teaching, and writing experience, and was one of the original Yahoo!Mail engineers. He holds degrees in CS, Math, and Music from the University of California, is a Fellow of the Python Software Foundation, and is based in Silicon Valley.",
     "title": "Exploring Google APIs with Python & JavaScript",
     "abstract": "Want to integrate Google technologies into the web+mobile apps that you build? Google has various open source libraries & developer tools that help you do exactly that. Users who have run into roadblocks like authentication or found our APIs confusing/challenging, are welcome to come and make these non-issues moving forward. The first half of the talk covers the Google APIs Client Library, specifically with Python, although you could use any of the other languages supported. We'll then describe the steps necessary to create projects & enable Google APIs from the Google Developers Console. Then we discuss how to create & access the needed credentials. Code demos will show you how to use this code to talk to a variety of Google APIs. While you do the same thing using JavaScript, there is another developer tool that gives you access to Google APIs but in a slightly different way. The second half of the talk covers Google Apps Script, a self-contained JavaScript environment in the Google cloud. You'll learn what Apps Script is and how it's more like using \"services\" than traditional APIs. We'll show you how to use its development environment and create a Google Sheets spreadsheet that talks to several Google APIs. The applications you build, whether they use the Client Library or Apps Script are reachable by any client, browser, desktop/laptop or mobile. Come join us and learn how to leverage the power of Google technologies in the next apps you build!",
     "profile": "./static/images/profiles/wesley.jpg",
@@ -133,7 +133,7 @@
     "bio": "Martin Omander works for Google in Mountain View, California. His job in the Developer Relations team is to help developers build better software, and improve Google's Cloud Platform to make it even better for that purpose. In his spare time he manages to sneak in some game programming. Before Google, Martin worked at string of startups in Silicon Valley as a software engineer.",
     "title": "Migrating your Monolith System to Microservices",
     "abstract": "Microservices enable development teams to be more agile, but it’s hard to break up an existing monolithic application or to run many services. Come to see a time-lapse refactoring of a fictional monolithic web application into decoupled services. An incremental approach and GCP serverless products for hosting, communication, and storage come to the rescue. We will explore how to get started and use best practices for your journey to a low-ops, high-velocity future.",
-    "profile": "./static/images/profiles/martin.png",
+    "profile": "https://static1.squarespace.com/static/57c1ca7846c3c4d923d281a1/57c1d0b56a4963efc2be0814/57c1d0b56a4963efc2be0815/1472319670866/Martin+Omander+Facebook+pic.jpg?format=1500w",
     "social": {
         "twitter": "@martinomander"
     }
@@ -174,7 +174,6 @@
     "abstract": "Breaking away from the traditional steps of a design sprint (http://www.gv.com/sprint) we blur them together to further reduce the development cycle in what we call \"Building @ Speed of Thought\".  Over the years my group has been perfecting how to build world-class Android Apps at the speed of thought first for hackathons, then products and now for design sprints. In this session, we will detail the “Speed of Thought” methodology, steps, tools and components involved. We start by utilizing a design sprint to explore the power of mobile and how it fits into the market/problem we are trying to solve.  Then focusing on the crucial step in a design sprint we build high fidelity prototypes in rapid succession utilizing the JetPack Android software components (UI, Behavior, Foundation, Architecture) to take full advantage of the Android platform.  We do this by leveraging the design features of Android Studio (material components / theme editor, constraint library, motion editor) along with open source/industry resources to build an intuitive and beautiful UI.  Once the UI framework is done we write the Kotlin application logic utilizing the Android Architecture Components with data binding connected to Firebase for the synchronized backend.  With our application finished we execute our strategy for marketing, distribution, and monetization guided by Data-Driven Ethnography (DDE).  At the end of the session, the audience will have a good idea of how in rapid secession all these tools and components come together to produce magic.",
     "profile": "./static/images/profiles/ash.png",
     "social": {
-        "twitter": ""
     }
 }, {
     "id": 20,
@@ -184,16 +183,5 @@
     "abstract": "",
     "profile": "./static/images/profiles/erick.jpg",
     "social": {
-        "twitter": ""
-    }
-}, {
-    "id": 8,
-    "name": "",
-    "bio": "Coming soon",
-    "title": "",
-    "abstract": "",
-    "profile": "",
-    "social": {
-        "twitter": ""
     }
 }]
