@@ -33,6 +33,10 @@ a img{
   color: #fff;
 }
 
+:focus {
+  outline: none !important;
+}
+
 .container-title {
   font-family: 'Product Sans Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   font-size: 32px;
