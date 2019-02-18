@@ -498,6 +498,12 @@ iframe {
   text-align: center;
 }
 
+.speaker-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
 .speaker-content {
   padding: 32px;
 }
@@ -597,6 +603,75 @@ iframe {
 .schedule {
   /*text-align: center;*/
 }
+
+
+.item {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.start-time {
+  grid-area: start;
+}
+.item-a {
+  grid-area: group;
+  grid-column: 2/-1;
+  text-align: center;
+}
+.item-b {
+  grid-area: talk30;
+  grid-row: 1 / 2;
+}
+.item-c {
+  grid-area: talk60;
+}
+.item-d {
+  grid-area: talk15;
+}
+.item-e {
+  grid-area: talk45;
+}
+
+.container-schedule {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  padding-bottom: 32px;
+  grid-template-areas:
+    "start group group group group";
+}
+
+.container-schedule-row1 {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  padding-bottom: 32px;
+  grid-template-areas:
+    "start talk60 talk30 . .";
+}
+
+.container-schedule-row2 {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  padding-bottom: 32px;
+  grid-template-areas:
+    "start talk30 talk60 . .";
+}
+
+.container-schedule-row3 {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  padding-bottom: 32px;
+  grid-template-areas:
+    "start talk15 talk60 . talk60";
+}
+
+
 
 
 
