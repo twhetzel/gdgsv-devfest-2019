@@ -607,6 +607,14 @@ iframe {
 
 .item {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  border-radius: 2px;
+  box-sizing: border-box;
+
+  font-weight: 300!important;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: .04em;
 }
 
 .start-time {
@@ -669,6 +677,26 @@ iframe {
   padding-bottom: 32px;
   grid-template-areas:
     "start talk15 talk60 . talk60";
+}
+
+.container-schedule-row5 {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  padding-bottom: 32px;
+  grid-template-areas:
+    "start talk60 talk30 talk60 talk60";
+}
+
+.container-schedule-row6 {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 16px;
+  padding-bottom: 32px;
+  grid-template-areas:
+    "start talk30 talk30 talk60 talk60";
 }
 
 
