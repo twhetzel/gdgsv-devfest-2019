@@ -122,7 +122,7 @@
     "name": "Carlos Palacin",
     "bio": "I've been working at Groupon for 4 years and I've spend the last year leading the Android UI team at Groupon. Before that, in another life, I was a backend engineer at IBM and a couple small startups. I love building beautiful apps but I still try to catch up with backend work whenever I have a chance.",
     "title": "5 tips on Android UI reusability",
-    "abstract": "",
+    "abstract": "In this talk, we will do a deep dive into UI reusability on Android. We will use some examples to highlight some common issues that affect the reusability of our UI. We will propose alternative patterns to overcome these issues and evaluate their impact on our day to day work.",
     "profile": "./static/images/profiles/carlos.png",
     "social": {
         "twitter": "@C_Palacin"
