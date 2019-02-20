@@ -21,7 +21,7 @@
 }, {
     "id": 3,
     "name": "Margaret Maynard-Reid",
-    "bio": "Margaret Maynard-Reid is a Google Developer Expert (GDE) for Machine Learning, and she develops Android apps with intelligence. She leads GDG Seattle and co-organizes Seattle Data/Analytics/Machine Learning meetup groups. She writes blogs and speaks at conferences on TensorFlow, deep learning and Android. She is passionate about community building and helping others get into Artificial Intelligence and Machine Learning.",
+    "bio": "Margaret Maynard-Reid is a Google Developer Expert(GDE) for Machine Learning, and she develops Android apps with intelligence. She leads GDG Seattle and co-organizes Seattle Data/Analytics/Machine Learning meetup groups. She writes blogs and speaks at conferences on TensorFlow, deep learning and Android. She is passionate about community building and helping others get into Artificial Intelligence and Machine Learning.",
     "title": "Deep Learning for Android with TensorFlow",
     "abstract": "Are you interested in making intelligent apps with the most popular deep learning framework TensorFlow? Come to this talk to learn your various options: from using ready made APIs to training your own custom models. You will learn the end to end process of how to train a model with TensorFlow high level API tf.Keras, convert to a TensorFlow Lite model and deploy it to an Android app.\r\r Topics covered in this talk: \r- Intro to TensorFlow, tf.Keras, TensorFlow Lite and ML Kit \r- How to integrate ML Kit, a Mobile SDK powered by TensorFlow Lite \r- Transfer learning with Pre-trained ConvNets \r- Train a model from scratch and deploy it to Android for inference",
     "profile": "./static/images/profiles/margaret.png",
@@ -182,6 +182,15 @@
     "title": "The power of Typescript to work with Node.js Applications",
     "abstract": "",
     "profile": "./static/images/profiles/erick.jpg",
+    "social": {
+    }
+}, {
+    "id": 21,
+    "name": "Murat Yener",
+    "bio": "Murat Yener is an Android Developer Advocate at Google. He is a code geek, open source committer, Java Champion and the author of Expert Android Studio and Professional Java EE Design Patterns books from Wiley.  Murat had been a user group leader at GDG Istanbul and in GDG San Francisco, organizing, participating, and speaking at events. He is also a regular speaker at major conferences such as DroidCon, JavaOne and Devoxx.",
+    "title": "Following the North Star: Navigation in Android",
+    "abstract": "From Medieval age to Modern times, ones desire to go from place to another hasn’t changed a bit but became much easier. Navigating in your mobile app is no different. In this session we will see how the new Navigation Architecture Component can greatly help to navigate from one view to another as well we helping you to pass data, create deep links and let your users find their way more effectively!",
+    "profile": "",
     "social": {
     }
 }]
