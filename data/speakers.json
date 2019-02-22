@@ -1,15 +1,15 @@
  [{
-    "id": 1,
+    "id": 0,
     "name": "Stacy Devino",
     "bio":  "Stacy is a Google Developer Expert for Android, Intel Innovator, Google Developer Group Mentor, and WTM Ambassador. She has worked on Android Applications down to the whole Android OS and even developed IoT appliances from the ground up which are in use by companies like Apple and Amazon and has work featured on Wired, Gizmodo, and Geek.com. Are you a sneakerhead? Because, she currently works for Nike s23NYC Innovation Studio doing Android apps like the SNKRS app, Augmented Reality, richly animated UIs, multimedia, Geo-caching, and touch of InfoSec focused on delivering exceptional customer mobile experiences.",
-    "title": "\"Fixing\" the background Services that Google \"Fixed\"",
-    "abstract": "Your app used a background service, Android Pie \"fixed\" your service to...... no longer work. 🤷‍  Now, you are faced with having to run your service in the Foreground and handle permissions for that or re-architecting it. There are some parts of Services that plain just broke and no longer work on Android Pie. How do you make that function work now? 🤔 Well, we will show you some new ways to get information you may have before through the magic of Tasks and WorkManager (remember, JobScheduler is deprecated) as well as good architecture points and what you should be doing. It seems like you have no choice, but you actually just have to choose the right approach for what you are trying to accomplish. Let's get the low-down on how to do this properly. 😉",
+    "title": "Smoth Criminals: Android Animations and How not to get Robbed",
+    "abstract": "\"How did they do that?!\" How many times have you been just stunned, STUNNED by the work you see others do in a fully native app? Smooth, layered animations for every transition that work on even $20 phones? It's not magic and it may not be as difficult or as \"mathy\" as you might think. \"Wow\" effects that impress and delight! Stacy will be exploring how to use multiple ways to accomplish a standard set of animations and much slicker more complicated ones using native and external libraries.From the native side you will cover topics like using the new MotionLayout, animation XML definitions, Material Design AppCompat included tools, moving through ObjectAnimators, Animation Properties, Listeners, View Animators, AnimationSets, even AnimatedVectorDrawables, Morphs, and libraries like Lottie.  You will learn what to use where and how for Best Performance and Best Practices.",
     "profile": "./static/images/profiles/stacy_devino.png",
     "social": {
         "twitter": "@DoesitPew"
     }
 }, {
-    "id": 2,
+    "id": 1,
     "name": "Vikram Tiwari",
     "bio": "Building scalable web and data platforms for high availability, resilience, and security. Co-founder, Tech @OmniLabsInc #GDE @GoogleCloud and #MachineLearning",
     "title": "End to End Machine Learning on Google Cloud",
@@ -19,7 +19,7 @@
         "twitter": "@Vikram_Tiwari"
     }
 }, {
-    "id": 3,
+    "id": 2,
     "name": "Margaret Maynard-Reid",
     "bio": "Margaret Maynard-Reid is a Google Developer Expert(GDE) for Machine Learning, and she develops Android apps with intelligence. She leads GDG Seattle and co-organizes Seattle Data/Analytics/Machine Learning meetup groups. She writes blogs and speaks at conferences on TensorFlow, deep learning and Android. She is passionate about community building and helping others get into Artificial Intelligence and Machine Learning.",
     "title": "Deep Learning for Android with TensorFlow",
@@ -29,7 +29,7 @@
         "twitter": "@margaretmz"
     }
 }, {
-    "id": 4,
+    "id": 3,
     "name": "Jessica Dene Earley-Cha",
     "bio": "Jessica Dene Earley-Cha is a Developer Advocate for Google Assistant. She loves to connect with developers and explore VUI (voice user interface) to add another dimension to how user interact with technology. Jessica is a full stack developer who enjoys sharing knowledge and support others. Jessica is a Women Techmakers lead and a teacher for Girl Develop It. You’ll find her either spending time with her dog, collecting strawberry knick knack or coding one of her many personal projects.",
     "title": "Let's build Apps for Google Assistant!",
@@ -39,7 +39,7 @@
         "twitter": "@chatasweetie"
     }
 }, {
-    "id": 5,
+    "id": 4,
     "name": "Doug Stevenson",
     "bio": "Doug is a veteran engineer, experienced public speaker, and developer advocate at Google with the Firebase team.  He's been developing for Android since the very first Android device was on the market, and has bootstrapped the efforts of silicon valley startups.  Outside of work, Doug follows professional ice hockey and enjoys craft beer.",
     "title": "Go “serverless” with Cloud Functions for Firebase",
@@ -49,7 +49,7 @@
         "twitter": "@CodingDoug"
     }
 }, {
-    "id": 6,
+    "id": 5,
     "name": "Ben Oberkfell",
     "bio": "Ben is an Android developer at the New York Times, where he works on the mobile Crosswords app. He’s previously built consumer-focused mobile products for American Express and Jive Software. \rBefore mobile, Ben worked on analysis software for cancer genomics. \r\rBen lives in St. Louis, where he is the co-organizer of the local GDG chapter.",
     "title": "Secrets to Effective Remote Work",
@@ -59,7 +59,7 @@
         "twitter": "@benlikestocode"
     }
 }, {
-    "id": 7,
+    "id": 6,
     "name": "Lyla Fujiwara",
     "bio": "Lyla Fujiwara is an Android Developer Advocate at Google. Prior to joining Google, she worked at Udacity, where she taught Android and Firebase content to hundreds of thousands of developers. She's a returned Peace Corps volunteer and has worked and lived on three continents.",
     "title": "WorkManager the Workshop",
@@ -69,7 +69,7 @@
         "twitter": "@CeruleanOtter"
     }
 }, {
-    "id": 9,
+    "id": 7,
     "name": "Shruti Kapoor",
     "bio": "Software Engineer at PayPal",
     "title": "GraphQL and state management",
@@ -79,7 +79,7 @@
         "twitter": "@shrutikapoor08"
     }
 }, {
-    "id": 10,
+    "id": 8,
     "name": "Paige Bailey",
     "bio": "Paige Bailey is a TensorFlow Developer Advocate at Google, based in Mountain View, CA. Prior to joining Google, Paige worked as a senior software engineer in the office of the Azure CTO; as a Cloud Developer Advocate for machine learning at Microsoft; and as a data scientist for Chevron in Houston, TX. Paige has over a decade of experience using Python for data analysis, five years of experience doing machine learning - and can't wait to show you about the new capabilities in TensorFlow 2.0.",
     "title": "A Gentle Introduction to TensorFlow 2.0",
@@ -89,7 +89,7 @@
         "twitter": "@DynamicWebPaige"
     }
 }, {
-    "id": 11,
+    "id": 9,
     "name": "Grant Timmerman",
     "bio": "Grant is a developer platform engineer at Google where he works on Google Cloud Platform. Previously he led open source for G Suite APIs. He loves Node, GitHub, and plays the alto saxophone in his spare time.",
     "title": "Google Cloud Functions for Go",
@@ -99,7 +99,7 @@
         "twitter": "@granttimmerman"
     }
 }, {
-    "id": 12,
+    "id": 10,
     "name": "Wesley Chun",
     "bio": "Wesley Chun is the author of Prentice Hall's bestselling \"Core Python\" (corepython.com) series, co-author of \"Python Web Development with Django\" (withdjango.com), and has written for Linux Journal, CNET, and InformIT. In addition to being an engineer & Developer Advocate at Google focused on Google Cloud and one of the hosts of the G Suite Dev Show (goo.gl/JpBQ40), he runs CyberWeb (cyberwebconsulting.com), a consultancy specializing in Python training. Wesley has over 25 years of programming, teaching, and writing experience, and was one of the original Yahoo!Mail engineers. He holds degrees in CS, Math, and Music from the University of California, is a Fellow of the Python Software Foundation, and is based in Silicon Valley.",
     "title": "Exploring Google APIs with Python & JavaScript",
@@ -109,7 +109,7 @@
         "twitter": "@wescpy"
     }
 }, {
-    "id": 13,
+    "id": 11,
     "name": "Alex Ermolaev",
     "bio": "Alex Ermolaev is Director of AI at Change Healthcare - one of the largest healthcare technology company in the US, managing 20% of medical images, 60% of medical claims, 20% of electronic health records. Alex previously built several startup and build new businesses at Bell Labs, Microsoft and Nvidia.",
     "title": "Can AI understand doctor's notes?",
@@ -118,7 +118,7 @@
     "social": {
     }
 }, {
-    "id": 14,
+    "id": 12,
     "name": "Carlos Palacin",
     "bio": "I've been working at Groupon for 4 years and I've spend the last year leading the Android UI team at Groupon. Before that, in another life, I was a backend engineer at IBM and a couple small startups. I love building beautiful apps but I still try to catch up with backend work whenever I have a chance.",
     "title": "5 tips on Android UI reusability",
@@ -128,7 +128,7 @@
         "twitter": "@C_Palacin"
     }
 }, {
-    "id": 15,
+    "id": 13,
     "name": "Martin Omander",
     "bio": "Martin Omander works for Google in Mountain View, California. His job in the Developer Relations team is to help developers build better software, and improve Google's Cloud Platform to make it even better for that purpose. In his spare time he manages to sneak in some game programming. Before Google, Martin worked at string of startups in Silicon Valley as a software engineer.",
     "title": "Migrating your Monolith System to Microservices",
@@ -138,17 +138,7 @@
         "twitter": "@martinomander"
     }
 }, {
-    "id": 16,
-    "name": "Adam Ross",
-    "bio": "Adam is a software engineer in Developer Relations working to make technology simpler with serverless. Prior to joining Google he worked in many roles as an engineer, consultant, solutions architect, platform planner, and tools tinkerer.",
-    "title": "Migrating your Monolith System to Microservices",
-    "abstract": "Microservices enable development teams to be more agile, but it’s hard to break up an existing monolithic application or to run many services. Come to see a time-lapse refactoring of a fictional monolithic web application into decoupled services. An incremental approach and GCP serverless products for hosting, communication, and storage come to the rescue. We will explore how to get started and use best practices for your journey to a low-ops, high-velocity future.",
-    "profile": "./static/images/profiles/adam_ross-RS.png",
-    "social": {
-        "twitter": "@grayside_sb"
-    }
-}, {
-    "id": 17,
+    "id": 14,
     "name": "James Williams",
     "bio": "James is a Android Certification Specialist for Advanced Systems Group at Google, where he helps new developers prove their mobile development skills. Before his current role, he architected mobile and web courses at Udacity, teaching hundreds of thousands of students how to code.",
     "title": "",
@@ -158,7 +148,7 @@
         "twitter": "@ecspike"
     }
 }, {
-    "id": 18,
+    "id": 15,
     "name": "Denis Neklyudov",
     "bio": "Google Developer Expert Android, Pay and IoT since 2015.  Worked in different startups in Singapore, Moscow, and London (including Revolut). Now SWE at Lyft San Francisсo Spoke about Android development and other technologies by Google on many developer conferences (>20). Took part of organization most of all Android conferences in Singapore and some of them in Russia. Co-host and creator of first Russian speaking mobile development weekly podcast with more than 10k listeners of every episode Developed, organized and taught Android beginners with Google Studyjams’ worldwide education program in Moscow and Kotlin Language workshops in Singapore",
     "title": "Flutter for Android developers",
@@ -167,7 +157,7 @@
     "social": {
     }
 }, {
-    "id": 19,
+    "id": 16,
     "name": "Siamak (Ash) Ashrafi",
     "bio": "Ash - CTO @ ZoeWave building physiologically intelligent clothing called ZoeWear. Combining biotech, mobile and fashion to build clothing that keeps people healthy while looking great*. Zoe(\"life\")Wear \"wearable for life\" is built on his experience in all three fields.",
     "title": "Design Sprint - Building @ Speed of thought",
@@ -176,16 +166,16 @@
     "social": {
     }
 }, {
-    "id": 20,
+    "id": 17,
     "name": "Erick Wendel",
     "bio": "Erick Wendel is a Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. He is a Software Independent Architect who helps companies to make better and cheaper applications using Serverless architectures, Container based applications, and Hybrid Cloud solutions. He has experience speaking and teaching at the biggest conferences in Brazil and Americas, working as voluntary Leader of NodeBR, Javascript São Paulo and Nerdzão Communities.",
     "title": "The power of Typescript to work with Node.js Applications",
-    "abstract": "",
+    "abstract": "Typescript is a superset of Javascript, helping developers to make powerful applications with better organization, maintainability and solves many problems that Javascript has. In this talk you can know the power to build applications with Typescript, using design patterns and features that can help us to build better software.",
     "profile": "./static/images/profiles/erick.jpg",
     "social": {
     }
 }, {
-    "id": 21,
+    "id": 18,
     "name": "Murat Yener",
     "bio": "Murat Yener is an Android Developer Advocate at Google. He is a code geek, open source committer, Java Champion and the author of Expert Android Studio and Professional Java EE Design Patterns books from Wiley.  Murat had been a user group leader at GDG Istanbul and in GDG San Francisco, organizing, participating, and speaking at events. He is also a regular speaker at major conferences such as DroidCon, JavaOne and Devoxx.",
     "title": "Following the North Star: Navigation in Android",
@@ -193,4 +183,14 @@
     "profile": "https://pbs.twimg.com/profile_images/1056354455753551872/Nf3nlaQ__400x400.jpg",
     "social": {
     }
-}]
+}, {
+    "id": 19,
+    "name": "Adam Ross",
+    "bio": "Adam is a software engineer in Developer Relations working to make technology simpler with serverless. Prior to joining Google he worked in many roles as an engineer, consultant, solutions architect, platform planner, and tools tinkerer.",
+    "title": "Migrating your Monolith System to Microservices",
+    "abstract": "Microservices enable development teams to be more agile, but it’s hard to break up an existing monolithic application or to run many services. Come to see a time-lapse refactoring of a fictional monolithic web application into decoupled services. An incremental approach and GCP serverless products for hosting, communication, and storage come to the rescue. We will explore how to get started and use best practices for your journey to a low-ops, high-velocity future.",
+    "profile": "./static/images/profiles/adam_ross-RS.png",
+    "social": {
+        "twitter": "@grayside_sb"
+    }
+} ]

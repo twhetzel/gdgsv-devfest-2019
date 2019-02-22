@@ -701,7 +701,31 @@ iframe {
 
 
 
+.sessions {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  color: 383838;
+}
 
+.sessions-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.sessions-content {
+  padding: 32px;
+}
+
+.session_title_format {
+  background-color: #E0E0E0;
+   height: 80px;
+}
+
+.meta-info {
+  line-height: .6;
+  font-size: 18px;
+}
 
 .android-card-container {
 }
