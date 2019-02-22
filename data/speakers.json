@@ -62,7 +62,7 @@
     "id": 7,
     "name": "Lyla Fujiwara",
     "bio": "Lyla Fujiwara is an Android Developer Advocate at Google. Prior to joining Google, she worked at Udacity, where she taught Android and Firebase content to hundreds of thousands of developers. She's a returned Peace Corps volunteer and has worked and lived on three continents.",
-    "title": "Make Your First Android App with Machine Learning",
+    "title": "WorkManager the Workshop",
     "abstract": "WorkManager is the Android Jetpack component for deferred and guaranteed background work. Not only does WorkManager handle background work compatibility to API level 14, it also introduces new features, such as chaining work, listening to work status and handling asynchronous work. In this workshop, you'll learn strategies for background work on Android, when it makes sense to use WorkManager and the ins and outs of the WorkManager API. Note: This is a guided tutorial - please come ready to \"work\" with a laptop with Android Studio installed!",
     "profile": "./static/images/profiles/LMF-2.jpg",
     "social": {
