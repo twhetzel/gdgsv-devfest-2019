@@ -451,11 +451,13 @@ div.call-for-action {
 
 .android-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  /*color: #8bc34a !important;*/
+  color: #4d8bf8 !important;
 }
 
   .android-link:hover {
-    color: #7cb342 !important;
+    /*color: #7cb342 !important;*/
+    color: #4d8bf8 !important;
   }
 
   .android-link .material-icons {
@@ -530,6 +532,10 @@ iframe {
 
 .speaker-name {
   display: contents;
+}
+
+#session-link {
+  color: #4d8bf8;
 }
 
 .center {

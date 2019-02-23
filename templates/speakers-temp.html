@@ -29,20 +29,29 @@
                       <div>
                         <h4 class="speaker-name">{{ speaker.name}} </h4>
                       </div>
+
+                      <!-- <div>
+                        <a href="{{ url_for('display_sessions', _anchor=session_data[speaker.id].id) }}">Session Link</a>
+                      </div> -->
+
                       <div>
                         <span class="mdl-typography--font-light mdl-typography--subhead">{{ speaker.bio }}</span>
                       </div>
                     </div>
                     <div class="mdl-card__actions">
-                      <!-- <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">Make the switch
+                      <div id="session-link">
+                      <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ url_for('display_sessions', _anchor=session_data[speaker.id].id) }}">Session description
                         <i class="material-icons">chevron_right</i>
-                      </a> -->
+                      </a>
+                    </div>
+                    <div>
                       {% if speaker.social.twitter is defined %}
                         <a href="https://twitter.com/{{ speaker.social.twitter }}" target="_blank">
                           <button class="mdl-mega-footer--social-btn social-twitter-small">
                           </button>
                         </a>
                         {% endif %}
+                    </div>
                     </div>
                   </div>
                 </div>

@@ -23,8 +23,10 @@ def display_speakers():
     ''' Show speakers page.'''
     with open ('./data/speakers.json') as speakers_file:
         speakers_data = json.load(speakers_file)
+    with open('./data/sessions.json') as sessions_file:
+        session_data = json.load(sessions_file)
 
-    return render_template('speakers-temp.html', data=speakers_data)
+    return render_template('speakers-temp.html', data=speakers_data, session_data=session_data)
 
 
 @app.route('/sessions')
