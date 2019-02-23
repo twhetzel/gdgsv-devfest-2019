@@ -84,7 +84,7 @@
     "bio": "Paige Bailey is a TensorFlow Developer Advocate at Google, based in Mountain View, CA. Prior to joining Google, Paige worked as a senior software engineer in the office of the Azure CTO; as a Cloud Developer Advocate for machine learning at Microsoft; and as a data scientist for Chevron in Houston, TX. Paige has over a decade of experience using Python for data analysis, five years of experience doing machine learning - and can't wait to show you about the new capabilities in TensorFlow 2.0.",
     "title": "A Gentle Introduction to TensorFlow 2.0",
     "abstract": "TensorFlow 2.0 has landed! In this talk, you'll learn all about the latest version of Tensorflow, as well as how you can upgrade your existing TensorFlow 1.x models.",
-    "profile": "",
+    "profile": "./static/images/profiles/paige.jpg",
     "social": {
         "twitter": "@DynamicWebPaige"
     }
@@ -141,7 +141,7 @@
     "id": 14,
     "name": "James Williams",
     "bio": "James is a Android Certification Specialist for Advanced Systems Group at Google, where he helps new developers prove their mobile development skills. Before his current role, he architected mobile and web courses at Udacity, teaching hundreds of thousands of students how to code.",
-    "title": "",
+    "title": "Groovy: More than Gradle's DSL",
     "abstract": "Every time you edit a Gradle file and build an Android app, a lot of magic is going on behind the scenes thanks to Groovy.  Created as a dynamic language in 2007, modern Groovy has speeds equivalent to Java and added features like static compilation to make it possible to, don't laugh, write Android code. Come learn a bit how to teach your build files a few new tricks, some cautionary tales Groovy's history has for the new Kotlin developer, and what makes Groovy more than Gradle's DSL.",
     "profile": "./static/images/profiles/james.jpg",
     "social": {
@@ -164,6 +164,7 @@
     "abstract": "Breaking away from the traditional steps of a design sprint (http://www.gv.com/sprint) we blur them together to further reduce the development cycle in what we call \"Building @ Speed of Thought\".  Over the years my group has been perfecting how to build world-class Android Apps at the speed of thought first for hackathons, then products and now for design sprints. In this session, we will detail the “Speed of Thought” methodology, steps, tools and components involved. We start by utilizing a design sprint to explore the power of mobile and how it fits into the market/problem we are trying to solve.  Then focusing on the crucial step in a design sprint we build high fidelity prototypes in rapid succession utilizing the JetPack Android software components (UI, Behavior, Foundation, Architecture) to take full advantage of the Android platform.  We do this by leveraging the design features of Android Studio (material components / theme editor, constraint library, motion editor) along with open source/industry resources to build an intuitive and beautiful UI.  Once the UI framework is done we write the Kotlin application logic utilizing the Android Architecture Components with data binding connected to Firebase for the synchronized backend.  With our application finished we execute our strategy for marketing, distribution, and monetization guided by Data-Driven Ethnography (DDE).  At the end of the session, the audience will have a good idea of how in rapid secession all these tools and components come together to produce magic.",
     "profile": "./static/images/profiles/ash.png",
     "social": {
+        "twitter": "@biocodes"
     }
 }, {
     "id": 17,
